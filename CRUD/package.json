@@ -1,0 +1,26 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "nodejs mysql expres body-parser handelbars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivtech11/Nodejs.git"
+  },
+  "author": "shiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivtech11/Nodejs/issues"
+  },
+  "homepage": "https://github.com/shivtech11/Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "jquery": "^3.4.1",
+    "mysql": "^2.17.1"
+  }
+}

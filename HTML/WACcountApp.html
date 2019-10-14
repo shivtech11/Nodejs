@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word && Charater Counter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: khaki;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        div {
+            height: 84vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        textarea {
+            border: 2px solid sienna;
+            border-radius: 10px;
+            outline: none;
+            font-size: 1.2rem;
+            padding: 10px 2px;
+            background-color: white;
+            box-shadow: 0 0 4px 1px #e3e8eb
+        }
+
+        button {
+            padding: 20px 30px;
+            background-color: sienna;
+            color: white;
+            border-radius: 34px;
+            border: 2px solid #1f121291;
+            font-size: 1.2rem;
+            outline: none;
+        }
+
+        h1 {
+            padding: 20px 30px;
+            background-color: sienna;
+            color: rgb(236, 231, 225);
+            font-size: 1.2rem;
+            outline: none;
+            box-shadow: 0 0 4px 1px #e3e8eb
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <h1> WnC coUnt APP</h1>
+
+    <div>
+        <h2>Welcome to the Word & Charaters count app !!</h2>
+        <h4>Using HTML CSS JavaScript</h4>
+        <br>
+        <textarea id="words" cols="50" rows="10"></textarea>
+        <br>
+        <p id="shownoc"></p>
+        <p id="shownow"></p>
+        <br>
+        <button onclick="countWords()"> Count </button>
+    </div>
+
+    <!--Footer-->
+    <h1> @ shiv 2019</h1>
+
+    <script>
+        const countWords = () => {
+            let noc = document.getElementById("words").value.length;
+
+            document.getElementById('shownoc').innerHTML = "The total characters = " + noc;
+
+            let now = document.getElementById("words").value;
+            now = now.match(/ \w/g);
+            now = now.length + 1;
+            document.getElementById('shownow').innerHTML = "The total Words = " + now;
+
+        };
+    </script>
+</body>
+
+</html>

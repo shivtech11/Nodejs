@@ -1,0 +1,18 @@
+{
+    "name": "in",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index"
+    },
+    "keywords": [
+        "hi"
+    ],
+    "author": "shiv",
+    "license": "ISC",
+    "dependencies": {
+        "request": "^2.88.0"
+    }
+}
