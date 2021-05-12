@@ -199,7 +199,7 @@
       "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz",
       "version": "0.6.2"
     },
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "npm-check-updates": "^3.1.24",
     "on-finished": {
       "integrity": "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=",
